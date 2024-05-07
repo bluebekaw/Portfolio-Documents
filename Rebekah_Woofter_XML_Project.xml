@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://web.csulb.edu/~mopsteeg/engl418/structuredAuthoring/structuredAuthoring.css"?>
+<!DOCTYPE document [
+    <!ELEMENT document (title, introduction+, (section|topic)+)>
+    <!ELEMENT section (sectionTitle, introduction+, topic+)>
+    <!ELEMENT topic (topicTitle, introduction+, (steps|list)*)>
+    <!ELEMENT steps (step+)>
+    <!ELEMENT list (listItem+)>
+    <!ELEMENT step (#PCDATA|action|note|warning|result)*>
+    <!ELEMENT listItem (#PCDATA|action|note|warning|result)*>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT sectionTitle (#PCDATA)>
+    <!ELEMENT topicTitle (#PCDATA)>
+    <!ELEMENT introduction (#PCDATA|note|warning|list)*>
+    <!ELEMENT result (#PCDATA|action)*>
+    <!ELEMENT note (#PCDATA|action)*>
+    <!ELEMENT warning (#PCDATA|action)*>
+    <!ELEMENT action (#PCDATA)>
+]>
+<document>
+    <title>Setting up a Freshwater Aquarium </title>
+    <introduction>Fishkeeping is a hobby that is often overlooked. Chances are you (or someone you
+        know) has owned fish before only to find them belly-up within the week. This first-time
+        experience with keeping fish can be incredibly disheartening, especially considering the
+        time, cost, and effort put into caring for these seemingly simple creatures. This guide is
+        designed to help beginning fish keepers who are serious about starting an aquarium that has
+        the potential to last for years. </introduction>
+        <topic>
+    <topicTitle>Required Materials
+    </topicTitle>
+    <introduction>Keeping fish is not as cheap or easy as it may initially seem! In order to
+        properly care for your species, an aquarium requires many types of products and equipment.
+        Here's a standard list of what you will most likely need to begin your aquarium: </introduction>
+    <list>
+        <listItem>A properly sized, waterproof fish tank; this can be made of glass or acrylic <warning>Warning:
+            Do NOT use enclosures meant for non-aquatic animals; they are not built to hold water
+                and will break under pressure.
+            </warning>
+        </listItem>
+        <listItem>A properly sized stand for your tank <warning>Warning: Do NOT put a fish tank on
+            something that is not labeled for fish tank use like a desk
+                or table: water is incredibly heavy and can damage surfaces.
+            </warning>
+        </listItem>
+        <listItem>A filter; this can include one or more hang-on-back (HOB), canister, or sump
+            filters <note>Note: For freshwater, the filter should have a gph (gallons per hour)
+            rating of at least
+                5 times your tank size.
+            </note>
+        </listItem>
+        <listItem>One or more properly rated, temperature-adjustable heaters for your tank <note>Note:
+            Make sure the heater has between 2.5-5 watts of power per gallon of your tank (for a
+            50-gallon tank, this will be 250-500 watts)
+            </note>
+        </listItem>
+        <listItem>1-2lbs of Substrate per gallon of your tank size for 1-2 inches of coverage for
+            the bottom of the tank <note>Note: Some species will prefer certain types of substrates
+            over others. If there is a particular
+                species you are interested in keeping, check to see if there are any special
+            substrate needs for that species.
+            </note>
+            <note>Note:
+            Make sure your substrate is suitable for aquarium use as materials not suitable for
+            aquariums
+                may leech harmful contaminants into the water.
+            </note>
+        </listItem>
+        <listItem>A suitable light <note>Note: If you are planning on getting plants for your
+            aquarium, make sure the light you purchase
+                is suitable for your desired species of plant(s).
+            </note>
+        </listItem>
+        <listItem>A bottle of water conditioner; this will be paramount for setting up your
+            aquarium and future water changes so that you do not burn the gills of your inhabitants.
+        </listItem>
+        <listItem>Decorations you (and your species) would like in the aquarium
+            Decorations and other structures are important because open water can induce stress on
+            many species. Decorations can also be used to break the line of sight in your aquarium,
+            inhibiting aggression.
+        </listItem>
+        <listItem>A bottle of aquarium bacteria starter; this will expedite the nitrogen
+            cycling (or simply “cycling”) process of the aquarium.
+        </listItem>
+        <listItem>Fish food; this will help the cycling process.
+        </listItem>
+        <listItem>A water testing kit; make sure it has at least a pH, ammonia, nitrite, and nitrate
+            test.
+        </listItem>
+    </list>
+</topic>
+    <topic>
+    <topicTitle>Planning and Research
+    </topicTitle>
+    <introduction>Having a set plan is integral for the longevity and health of your freshwater
+        aquarium. Following this plan will help you avoid common beginner mistakes when beginning
+        your fishkeeping journey. </introduction>
+    <steps>
+        <step> Make a list of what species you would like to keep including fish, invertebrates, and
+            plants.
+        </step>
+        <step>Rank your desired species from highest priority to lowest priority.
+        </step>
+        <step>Research the minimum tank size suitable for each species. <note>Note: For a single
+            small fish this should be no less than 5 gallons.
+            </note>
+        </step>
+        <step>Learn about the temperament of each species to keep the stress of your fish at a
+            minimum. <note>Note: Each species has different behavior patterns; a species might have
+            a behavior that is
+                docile, moderate, or aggressive; a species may fare best in a group that schools (a
+            same-species group with a tight swimming pattern), shoals (a same-species group that
+            loosely swims together), or is independent; and a species may reside mostly at the top,
+            middle, or bottom of a tank.
+            </note>
+        </step>
+        <step>Know the ideal water parameters of each species <note>Note: This will include optimal
+            temperature, pH, and water hardness.
+            </note>
+        </step>
+        <step>Take notes of what type of habitat each species resides in best; this will affect your
+            choice of substrate (sand or gravel) and your aquarium layout (open water or dense
+            vegetation).
+        </step>
+        <step>Choose what size tank you want to have. <note>Note: Smaller tanks are cheaper to set
+            up and require fewer resources to maintain.
+            </note>
+                <note>Note:
+            Larger tanks can house more individuals and tend to be more chemically stable.
+            </note>
+        </step>
+        <step>Decide where to set up your aquarium. <note>Note: Avoiding direct sunlight,
+            hard-to-reach spots, carpeting, and heavy-traffic areas
+                will make regular maintenance easier.
+            </note>
+        </step>
+        <step>Create a final draft of what species you are going to keep from what you have
+            researched.
+        </step>
+    </steps>
+</topic>
+<topic>
+    <topicTitle>Assembling the Aquarium
+    </topicTitle>
+    <introduction>Setting up your aquarium will require more than just filling a glass box with
+        water! Follow these instructions to properly set up your tank and minimize the mess: </introduction>
+    <steps>
+        <step>Clear the area where you will be putting your fish tank and stand.
+        </step>
+        <step>Follow the instructions for your stand and place or build it in your desired location.
+        </step>
+        <step>Place the tank on top of the stand if you have not done so already.
+        </step>
+        <step>Place whatever decorations you like inside the tank. <note>Note: Doing this before you
+            add your substrate will anchor the decorations and will
+                keep the decorations from tipping over and potentially harming your species.
+            </note>
+        </step>
+        <step>Rinse your substrate to get rid of any debris. You may do this by using a colander for
+            gravel or by cutting two holes at the top of the bag for sand, using one hole to fill
+            the bag with water and the other to filter out the debris. <note>Note: Failing to do
+            this will result in very cloudy water that will last for several weeks.
+            </note>
+        </step>
+        <step>Use your rinsed substrate to cover the bottom of the tank by at least 1 inch.
+        </step>
+        <step>Follow the manufacturers' instructions to set up whatever equipment you have for your
+            tank, including the filter, heater, and light. <warning>To avoid damaging your
+            equipment, do NOT plug them in or power them on yet.
+            </warning>
+        </step>
+        <step>Fill the tank with tap water
+        </step>
+        <step>Turn on your equipment to ensure it works properly.
+        </step>
+        <step>Follow the instructions of your water conditioner and add the recommended amount to
+            your tank.
+        </step>
+    </steps>
+</topic>
+<topic>
+    <topicTitle>Nitrogen Cycling the Tank
+    </topicTitle>
+    <introduction>You&apos;re not at the finish line yet! Nitrogen cycling (or “cycling”) your tank
+        is the absolute most important part of ensuring a healthy environment for your species. If
+        this step is skipped or not properly followed, you will lose most, if not all, of your
+        species. In total, this process will last from one to six weeks. </introduction>
+    <steps>
+        <step>Optional: If you like, you may now add aquatic plants at any time. The plants may help
+            in cycling the tank and should be able to handle the cycling process.
+        </step>
+        <step>Follow the instructions on your fish tank bacteria starter to kickstart and possibly
+            expedite this process.
+        </step>
+        <step>Add some food to the fish tank every couple of days. This will feed the bacteria in
+            your tank.
+        </step>
+        <step>Follow the instructions on your testing kit and test for ammonia, nitrite, and nitrate
+            every day.
+        </step>
+        <step>Once ammonia and nitrite read 0 and nitrate reads above 0 on your water test kit,
+            you&apos;re ready to add some species!
+        </step>
+    </steps>
+</topic>
+<topic>
+    <topicTitle>Adding Species
+    </topicTitle>
+    <introduction>At long last, you can finally add some fish! Like cycling, this process may also
+        take some time as the water chemistry will have to adjust as you add your species of fish.
+        Be sure to continuously test your water to ensure a comfortable home for your species during
+        this process. </introduction>
+    <steps>
+        <step>Start by adding a group of your most timid species. This will inhibit your more
+            aggressive species from bullying them as they have already “claimed” most of the
+            tank&apos;s territory. <note>Note: Do not add more than a quarter of your entire species
+            plan at a
+                time so that the nitrogen cycle can catch up with the load of whatever species you
+            add
+                to the tank.
+            </note>
+        </step>
+        <step>After your ammonia, nitrite, and nitrate levels have stabilized once again, you may
+            add more
+            species, leaving your most aggressive species for last.
+        </step>
+    </steps>
+</topic>
+</document>
